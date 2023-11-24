@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Receta} from "./Receta"
 
 @Component({
   selector: 'app-recetas',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./recetas.component.css']
 })
 export class RecetasComponent implements OnInit {
-
+  recetas: Array<Receta> = [];
+  
   constructor() { }
 
   ngOnInit() {
   }
 
 }
+

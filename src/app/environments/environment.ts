@@ -4,8 +4,7 @@
 
 export const environment = {
     production: false,
-    baseUrl: "https://gist.githubusercontent.com/josejbocanegra/9bc286433e85ad2fdd3b4d3b2a1998f8/raw/ab432ff4f10f767a8c997a8e15012cd7d908dd62/"
-  };
+    baseUrl: "https://gist.githubusercontent.com/VivianGomez/e65c117a4809355fbb53c37cb8fe1d44/raw/d0482c083962cad2319b3640250da0194d341dc6/recipes"};
   
   /*
    * For easier debugging in development mode, you can import the following file

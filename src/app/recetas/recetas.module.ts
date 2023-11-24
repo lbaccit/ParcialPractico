@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RecetasComponent } from './recetas.component';
+import { RecetasListComponent } from './recetas-list/recetas-list.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [RecetasComponent],
-  exports: [RecetasComponent]
+  declarations: [RecetasListComponent],
+  exports: [RecetasListComponent]
 })
 export class RecetasModule { }
+
